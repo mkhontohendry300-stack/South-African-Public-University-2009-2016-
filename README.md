@@ -1,4 +1,4 @@
-🎓 South African Public University Data Analysis (2009–2016)
+#South African Public University Data Analysis (2009–2016)
 
 Comprehensive analysis of South African public university data using Excel, SQL, and Power BI.
 
