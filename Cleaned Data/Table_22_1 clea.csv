@@ -1,0 +1,27 @@
+institution_number;university ;university_name;Government funds;Student fees;Private income
+H01;CPUT;Cape Peninsula University of Technology;0.46;0.36;0.18
+H02;UCT;University of Cape Town;0.3;0.26;0.44
+H03;CUT;Central University of Technology;0.51;0.41;0.08
+H04;DUT;Durban University of Technology;0.48;0.37;0.16
+H05;FH;University of Fort Hare;0.49;0.41;0.1
+H06;FS;University of Free State;0.39;0.34;0.27
+H07;UJ;University of Johannesburg;0.4;0.39;0.21
+H08;KZN;University of Kwazulu-Natal;0.43;0.35;0.22
+H09;UL;University of Limpopo;0.43;0.42;0.16
+H10;NMMU;Nelson Mandela University;0.39;0.3;0.3
+H11;NWU;North West University;0.4;0.32;0.27
+H12;UP;University of Pretoria;0.33;0.31;0.36
+H13;RU;Rhodes University;0.41;0.39;0.2
+H14;UNISA;University of South Africa;0.45;0.39;0.17
+H15;SU;University of Stellenbosch;0.34;0.21;0.45
+H16 ;TUT;Tshwane University of Technology;0.52;0.38;0.09
+H17;UNIVEN;University of Venda;0.46;0.43;0.11
+H18;VUT;Vaal University of Technology;0.57;0.37;0.06
+H19;WSU;Walter Sisulu University;0.54;0.44;0.02
+H20;UWC;University of the Western Cape;0.48;0.26;0.26
+H21;WITS;University of Witwatersrand;0.22;0.29;0.48
+H22;UZ;University of Zululand;0.36;0.26;0.38
+H23 ;SPU;Sol Plaatje University;0.78;0.19;0.03
+H24;UMP;University of Mpumalanga;0.74;0.19;0.06
+H25;MUT;Mangosuthu University of Technology;0.45;0.3;0.25
+H26;SMHSU;Sefako Makgatho Health Science University;0.62;0.33;0.05

@@ -1,0 +1,27 @@
+institution_number ;university ;university_name ;yr2009;yr2010;yr2011;yr2012;yr2013;yr2014;yr2015;yr2016
+H01;CPUT;Cape Peninsula University of Technology;0.59;0.56;0.56;0.56;0.56;0.56;0.55;0.55
+H02;UCT;University of Cape Town;0.44;0.51;0.53;0.52;0.52;0.52;0.52;0.54
+H03;CUT;Central University of Technology;0.61;0.65;0.62;0.58;0.56;0.5;0.55;0.52
+H04;DUT;Durban University of Technology;0.63;0.61;0.61;0.65;0.65;0.65;0.64;0.59
+H05;FH;University of Fort Hare;0;0.48;0.38;0.47;0.44;0.42;0.38;0.38
+H06;FS;University of Free State;0.58;0.59;0.6;0.6;0.58;0.59;0.6;0.57
+H07;UJ;University of Johannesburg;0.49;0.48;0.47;0.57;0.57;0.57;0.56;0.54
+H08;KZN;University of Kwazulu-Natal;0.51;0.55;0.47;0.5;0.52;0.49;0.5;0.48
+H09;UL;University of Limpopo;0.56;0.51;0.53;0.55;0.5;0.55;0.58;0.48
+H10;NMU;Nelson Mandela University;0.56;0.53;0.56;0.53;0.54;0.53;0.52;0.52
+H11;NWU;North West University;0.5;0.53;0.52;0.52;0.51;0.5;0.53;0.55
+H12;UP;University of Pretoria;0.47;0.47;0.48;0.47;0.48;0.49;0.5;0.51
+H13;RU;Rhodes University;0.55;0.55;0.56;0.56;0.55;0.54;0.54;0.53
+H14;UNISA;University of South Africa;0.58;0.28;0.58;0.62;0.61;0.6;0.65;0.63
+H15;SU;University of Stellenbosch;0.43;0.44;0.46;0.45;0.45;0.44;0.52;0.48
+H16 ;TUT;Tshwane University of Technology;0.62;0.48;0.49;0.62;0.61;0.6;0.62;0.61
+H17;UNIVEN;University of Venda;0.54;0.58;0.56;0.55;0.51;0.52;0.5;0.52
+H18;VUT;Vaal University of Technology;0.63;0.62;0.64;0.65;0.6;0.61;0.65;0.62
+H19;WSU;Walter Sisulu University;0.6;0.49;0.61;0.61;0.58;0.63;0.6;0.59
+H20;UWC;University of the Western Cape;0.55;0.55;0.54;0.54;0.53;0.52;0.51;0.45
+H21;WITS;University of Witwatersrand;0.47;0.49;0.51;0.51;0.51;0.5;0.45;0.51
+H22;UZ;University of Zululand;0.45;0.24;0.42;0.47;0.47;0.47;0.49;0.46
+H23 ;SPU;Sol Plaatje University;0;0;0;0;0;0;0.45;0.36
+H24;UMP;University of Mpumalanga;0;0;0;0;0;0;0.47;0.47
+H25;MUT;Mangosuthu University of Technology;0.43;0.53;0.54;0.56;0.48;0.49;0.45;0.52
+H26;SMHSU;Sefako Makgatho Health Science University;0;0;0;0;0;0;0.58;0.5
