@@ -3,6 +3,9 @@
 A comprehensive data analytics project completed as part of the **CAPACITI Tech Career Accelerator Program**, simulating a real-world **data analyst role** in higher education, finance, and research analytics.
 
 ---
+Insight: https://uni-audit-insights.lovable.app/
+
+
 
 ##  Project Overview
 
@@ -42,7 +45,7 @@ The goal was to transform raw institutional data into actionable insights and pr
 ##  Key Analysis & Deliverables
 
 ###  Data Cleaning & Preparation (Excel)
-- Standardized column names & formats  
+- Standardised column names & formats  
 - Converted dates to YYYY-MM-DD  
 - Handled missing values and duplicates  
 - Applied conditional formatting to detect anomalies  
@@ -75,4 +78,12 @@ The goal was to transform raw institutional data into actionable insights and pr
 - Demonstrated proficiency in **Excel, SQL, and Power BI**  
 - Produced professional dashboards suitable for decision-making in higher education and finance analytics  
 
+Insights & Presentation
+An interactive slide deck summarising key findings is available at: https://uni-audit-insights.lovable.app/
+
+Author
+Hendry — mkhontohendry300@gmail.com
+
+License
+This project is open for educational and research use. Please attribute appropriately if you use or adapt the data or schema.
 **© 2024 CAPACITI | Tech Career Accelerator Program**
