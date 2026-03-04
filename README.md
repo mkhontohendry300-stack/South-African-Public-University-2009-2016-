@@ -40,10 +40,10 @@ The goal was to transform raw institutional data into actionable insights and pr
 ---
 
 ## 📂 Project Structure
-south-african-universities-quantitative-analysis/
 
+south-african-universities-quantitative-analysis/
 │
-├── raw data/                          # source data files (pre-processing)
+├── raw data/                          # Original source data files (pre-processing)
 │
 ├── optimised-for-analytics-csv-files/ # Cleaned, structured CSVs ready for analysis
 │
