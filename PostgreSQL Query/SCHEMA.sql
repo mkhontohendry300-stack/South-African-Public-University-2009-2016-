@@ -1,0 +1,143 @@
+-- -- Drop tables if they exist
+-- DROP TABLE IF EXISTS graduation_rates CASCADE;
+-- DROP TABLE IF EXISTS financial_data CASCADE;
+-- DROP TABLE IF EXISTS surplus_deficit CASCADE;
+-- DROP TABLE IF EXISTS funding_detailed CASCADE;
+-- DROP TABLE IF EXISTS funding_summary CASCADE;
+-- DROP TABLE IF EXISTS research_output_per_staff  CASCADE;
+
+-- -- Table 1: Graduation Rates
+-- CREATE TABLE graduation_rates (
+--     institution_number VARCHAR(10),
+--     university VARCHAR(10),
+--     university_name VARCHAR(100),
+--     yr2009 DECIMAL(5,2),
+--     yr2010 DECIMAL(5,2),
+--     yr2011 DECIMAL(5,2),
+--     yr2012 DECIMAL(5,2),
+--     yr2013 DECIMAL(5,2),
+--     yr2014 DECIMAL(5,2),
+--     yr2015 DECIMAL(5,2),
+--     yr2016 DECIMAL(5,2)
+-- );
+
+-- -- Table 2: Financial Data
+-- CREATE TABLE financial_data (
+--     institution_number VARCHAR(10),
+--     university VARCHAR(10),
+--     university_name VARCHAR(100),
+--     income_2009 BIGINT,
+--     expenditure_2009 BIGINT,
+--     income_2010 BIGINT,
+--     expenditure_2010 BIGINT,
+--     income_2011 BIGINT,
+--     expenditure_2011 BIGINT,
+--     income_2012 BIGINT,
+--     expenditure_2012 BIGINT,
+--     income_2013 BIGINT,
+--     expenditure_2013 BIGINT,
+--     income_2014 BIGINT,
+--     expenditure_2014 BIGINT,
+--     income_2015 BIGINT,
+--     expenditure_2015 BIGINT,
+--     income_2016 BIGINT,
+--     expenditure_2016 BIGINT
+-- );
+
+-- -- Table 3: Surplus/Deficit
+-- CREATE TABLE surplus_deficit (
+--     institution_number VARCHAR(10),
+--     university VARCHAR(10),
+--     university_name VARCHAR(100),
+--     surplus_2009 DECIMAL(6,2),
+--     surplus_2010 DECIMAL(6,2),
+--     surplus_2011 DECIMAL(6,2),
+--     surplus_2012 DECIMAL(6,2),
+--     surplus_2013 DECIMAL(6,2),
+--     surplus_2014 DECIMAL(6,2),
+--     surplus_2015 DECIMAL(6,2),
+--     surplus_2016 DECIMAL(6,2)
+-- );
+
+-- -- Table 4: Funding Sources Detailed
+-- CREATE TABLE funding_detailed (
+--     institution_number VARCHAR(10),
+--     university VARCHAR(10),
+--     university_name VARCHAR(100),
+--     gov_funds_2009 DECIMAL(5,2),
+--     student_fees_2009 DECIMAL(5,2),
+--     private_income_2009 DECIMAL(5,2),
+--     gov_funds_2010 DECIMAL(5,2),
+--     student_fees_2010 DECIMAL(5,2),
+--     private_income_2010 DECIMAL(5,2),
+--     gov_funds_2011 DECIMAL(5,2),
+--     student_fees_2011 DECIMAL(5,2),
+--     private_income_2011 DECIMAL(5,2),
+--     gov_funds_2012 DECIMAL(5,2),
+--     student_fees_2012 DECIMAL(5,2),
+--     private_income_2012 DECIMAL(5,2),
+--     gov_funds_2013 DECIMAL(5,2),
+--     student_fees_2013 DECIMAL(5,2),
+--     private_income_2013 DECIMAL(5,2),
+--     gov_funds_2014 DECIMAL(5,2),
+--     student_fees_2014 DECIMAL(5,2),
+--     private_income_2014 DECIMAL(5,2),
+--     gov_funds_2015 DECIMAL(5,2),
+--     student_fees_2015 DECIMAL(5,2),
+--     private_income_2015 DECIMAL(5,2),
+--     gov_funds_2016 DECIMAL(5,2),
+--     student_fees_2016 DECIMAL(5,2),
+--     private_income_2016 DECIMAL(5,2)
+-- );
+
+-- -- Table 5: Funding Sources Summary
+-- CREATE TABLE funding_summary (
+--     institution_number VARCHAR(10),
+--     university VARCHAR(10),
+--     university_name VARCHAR(100),
+--     government_funds DECIMAL(5,2),
+--     student_fees DECIMAL(5,2),
+--     private_income DECIMAL(5,2)
+-- );
+
+-- Original file: Table 19 Cleaned-research-staff.csv
+
+-- CREATE TABLE research_output_per_staff (
+--     institution_number VARCHAR(10),
+--     university VARCHAR(10),
+--     university_name VARCHAR(100),
+--     yr2009 DECIMAL(5,2),
+--     yr2010 DECIMAL(5,2),
+--     yr2011 DECIMAL(5,2),
+--     yr2012 DECIMAL(5,2),
+--     yr2013 DECIMAL(5,2),
+--     yr2014 DECIMAL(5,2),
+--     yr2015 DECIMAL(5,2),
+--     yr2016 DECIMAL(5,2)
+-- );
+
+-- -- Create table for personnel costs from Table 25
+
+-- CREATE TABLE public.personnel_cost_percent (
+--     institution_number VARCHAR(10),
+--     university VARCHAR(10),
+--     university_name VARCHAR(100),
+--     yr2009 DECIMAL(5,3),
+--     yr2010 DECIMAL(5,3),
+--     yr2011 DECIMAL(5,3),
+--     yr2012 DECIMAL(5,3),
+--     yr2013 DECIMAL(5,3),
+--     yr2014 DECIMAL(5,3),
+--     yr2015 DECIMAL(5,3),
+--     yr2016 DECIMAL(5,3)
+-- );
+
+-- -- -- Verify imports
+-- SELECT 'graduation_rates' AS table_name, COUNT(*) FROM graduation_rates
+-- UNION ALL SELECT 'financial_data', COUNT(*) FROM financial_data
+-- UNION ALL SELECT 'surplus_deficit', COUNT(*) FROM surplus_deficit
+-- UNION ALL SELECT 'funding_detailed', COUNT(*) FROM funding_detailed
+-- UNION ALL SELECT 'funding_summary', COUNT(*) FROM funding_summary;
+
+-- -- Show sample data
+-- SELECT * FROM graduation_rates LIMIT 5;
