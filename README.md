@@ -1,4 +1,4 @@
-#  South African Public University Data Analysis (2009–2016)
+#  South African Public University Quantitative Analysis (2009–2016)
 
 A comprehensive data analytics project completed as part of the **CAPACITI Tech Career Accelerator Program**, simulating a real-world **data analyst role** in higher education, finance, and research analytics.
 
